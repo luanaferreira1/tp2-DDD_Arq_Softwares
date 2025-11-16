@@ -4,8 +4,6 @@ import br.com.petfriends.domain.events.AbstractDomainEvent;
 import java.util.UUID;
 
 public class AssinaturaDeRacaoCriadaEvent extends AbstractDomainEvent {
-
-
     private final UUID assinaturaId;
     private final UUID clienteId;
     private final String periodicidade;
